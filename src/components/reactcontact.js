@@ -59,7 +59,7 @@ const Reactcontact = () => {
     <div class="container">
         <p>Full Name: <input type="text" name='name'  value= {user.name} onChange={getUserData} placeholder="Full Name" required/></p>
         <p>E-mail:  <input type="email" name='email'  value= {user.email} onChange={getUserData} placeholder="abcd@gmail.com" required/></p>
-        <p>Phone number: <br /> <input type="tel" name='phone'  value= {user.phone} onChange={getUserData} placeholder="Phone number" required/> </p>
+        <p>Phone number: <br /> <input type="tel" name='phone'  value= {user.phone} onChange={getUserData} placeholder="91 XXXXXXXXXXX" required/> </p>
         <p>Message: <input type="text"name="Message" name='message'  value= {user.message} onChange={getUserData} placeholder="Message" required/> </p>
         <button onClick={postData}> submit</button>
     </div>
